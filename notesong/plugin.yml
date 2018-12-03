@@ -1,0 +1,18 @@
+main: com.chaoticcade.ns.NoteSong
+name: NoteSong
+version: 1.2
+author: Chaotic Cade
+description: Plays a note block song.
+commands:
+  notesong:
+    description: A noteblock song.
+    usage: /notesong <songname>
+    permission: ns.notesong
+    permission-message: No joy for you.
+  nsreload:
+    description: 
+    usage: /nsreload
+  nslist:
+    description: List of songs
+    usage: /nslist <page>
+    
